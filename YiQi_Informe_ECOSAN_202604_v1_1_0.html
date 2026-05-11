@@ -248,7 +248,7 @@ html[data-theme="light"] .hero{background:linear-gradient(135deg,var(--bg-elev) 
   border-radius:var(--radius-pill);background:var(--cyan-soft)
 }
 .embed-clip{position:relative;height:530px;overflow:hidden}
-
+.embed-clip::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:var(--bg-elev);z-index:2;pointer-events:none}
 .embed-clip iframe{position:absolute;top:-90px;left:0;width:100%;height:710px;border:none;background:var(--bg-elev-2)}
 .embed-link-bar{padding:10px 20px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:flex-end}
 .embed-ext-link{display:inline-flex;align-items:center;gap:6px;font:500 11px var(--mono);color:var(--muted-2);text-decoration:none;padding:4px 10px;border:1px solid var(--line);border-radius:var(--radius-pill);background:var(--bg-soft);transition:all .15s}
@@ -618,7 +618,7 @@ tbody td{padding:11px 14px;font:400 12px var(--sans);color:var(--text)}
       <div class="embed-grid">
         <div class="embed-card">
           <div class="embed-header"><span class="embed-title">Sprints — Complejidad</span><span class="embed-badge">Interactivo</span><span class="embed-sub">% de avance según orden de backlog</span></div>
-          <div class="embed-clip" style="height:540px"><iframe src="https://public.flourish.studio/visualisation/22568847/" style="height:720px" title="Sprints Complejidad" loading="lazy" allowfullscreen scrolling="no"></iframe></div>
+          <div class="embed-clip" style="height:480px"><iframe src="https://public.flourish.studio/visualisation/22568847/" style="height:660px" title="Sprints Complejidad" loading="lazy" allowfullscreen scrolling="no"></iframe></div>
           <div class="embed-link-bar"><a href="https://public.flourish.studio/visualisation/22568847/" target="_blank" rel="noopener" class="embed-ext-link">Ver en Flourish<svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div>
         </div>
         <div class="embed-card">
@@ -628,7 +628,7 @@ tbody td{padding:11px 14px;font:400 12px var(--sans);color:var(--text)}
         </div>
         <div class="embed-card">
           <div class="embed-header"><span class="embed-title">Sprints — Total de tickets</span><span class="embed-badge">Interactivo</span><span class="embed-sub">Planificados, no planificados y de soporte</span></div>
-          <div class="embed-clip" style="height:820px"><iframe src="https://public.flourish.studio/visualisation/22076490/" style="height:1000px" title="Sprints Total Tickets" loading="lazy" allowfullscreen scrolling="no"></iframe></div>
+          <div class="embed-clip" style="height:560px"><iframe src="https://public.flourish.studio/visualisation/22076490/" style="height:750px" title="Sprints Total Tickets" loading="lazy" allowfullscreen scrolling="no"></iframe></div>
           <div class="embed-link-bar"><a href="https://public.flourish.studio/visualisation/22076490/" target="_blank" rel="noopener" class="embed-ext-link">Ver en Flourish<svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div>
         </div>
       </div>
